@@ -1,0 +1,41 @@
+.flair{max-width:none; font-weight: 900;}
+.flair-green{ color:green}
+.flair-red{ color:red}
+.flair-orange{ color:orange}
+.flair-yellow{ color: yellow}
+.flair-purple{ color:purple }
+.flair-navy{ color:navy}
+.flair-black{ color:black}
+.flair-pink{ color:pink}
+.flair-cyan{ color:cyan}
+.flair-brown{ color:brown}
+.flair-blue{ color:blue}
+
+.edited-timestamp[title]:after {
+    content: " (" attr(title) ")";
+    font-size: 90%;
+}
+
+.pagename a:after,
+.titlebox .redditname a:after {
+   content: "goddam these memes are so fckn dank"; 
+}
+
+.pagename a, .titlebox .redditname a {
+   font-size: 0!important;
+}
+
+   .pagename a:after {
+       font-size: 18px;
+       vertical-align: bottom;
+   }
+
+
+   .titlebox .redditname a:after {
+          font-size: 45px; 
+      }
+.titlebox .redditname a {
+    background-position: center;
+    vertical-align: bottom;
+    width: 300;
+    background-repeat:no-repeat;
