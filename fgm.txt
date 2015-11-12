@@ -11,6 +11,13 @@
 .flair-brown{ color:brown}
 .flair-blue{ color:blue}
 
+div.titlebox span.word {
+    display: none;
+    }
+div.titlebox span.number:after {
+    content: " memeologists"
+ }
+ 
 .edited-timestamp[title]:after {
     content: " (" attr(title) ")";
     font-size: 90%;
